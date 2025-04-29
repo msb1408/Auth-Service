@@ -1,0 +1,1448 @@
+11-Mar 15:22:22 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 15:22:22 - Custom_headers: {}
+11-Mar 15:22:22 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 15:22:22 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 400 Bad Request"
+11-Mar 15:22:23 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 15:22:23 - Custom_headers: {}
+11-Mar 15:22:23 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 15:22:23 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 400 Bad Request"
+11-Mar 15:22:24 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 15:22:24 - Custom_headers: {}
+11-Mar 15:22:24 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 15:22:24 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+11-Mar 15:22:25 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 15:22:25 - Custom_headers: {}
+11-Mar 15:22:25 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 15:22:25 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+11-Mar 15:22:25 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 15:22:25 - Custom_headers: {}
+11-Mar 15:22:25 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 15:22:25 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 403 Forbidden"
+11-Mar 15:23:35 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 15:23:35 - Custom_headers: {}
+11-Mar 15:23:35 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 15:23:35 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 400 Bad Request"
+11-Mar 15:23:35 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 15:23:35 - Custom_headers: {}
+11-Mar 15:23:35 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 15:23:35 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 200 OK"
+11-Mar 15:23:36 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 15:23:36 - Custom_headers: {}
+11-Mar 15:23:36 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 15:23:36 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+11-Mar 15:23:36 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 15:23:36 - Custom_headers: {}
+11-Mar 15:23:36 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 15:23:36 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 200 OK"
+11-Mar 15:23:37 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 15:23:37 - Custom_headers: {}
+11-Mar 15:23:37 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 15:23:37 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 403 Forbidden"
+11-Mar 15:25:09 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 15:25:09 - Custom_headers: {}
+11-Mar 15:25:09 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 15:25:09 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 400 Bad Request"
+11-Mar 15:25:09 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 15:25:09 - Custom_headers: {}
+11-Mar 15:25:09 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 15:25:09 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 400 Bad Request"
+11-Mar 15:25:10 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 15:25:10 - Custom_headers: {}
+11-Mar 15:25:10 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 15:25:10 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+11-Mar 15:25:11 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 15:25:11 - Custom_headers: {}
+11-Mar 15:25:11 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 15:25:11 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+11-Mar 15:25:12 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 15:25:12 - Custom_headers: {}
+11-Mar 15:25:12 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 15:25:12 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 403 Forbidden"
+11-Mar 15:27:18 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 15:27:18 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'accept': '*/*', 'access-control-request-method': 'GET', 'access-control-request-headers': 'x-user-hashed-password,x-username', 'origin': 'http://127.0.0.1:8001', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'sec-fetch-mode': 'cors', 'sec-fetch-site': 'cross-site', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 15:27:18 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 15:27:18 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 15:27:20 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 15:27:20 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 15:27:20 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'x-username': 'admin', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'x-user-hashed-password': 'hashed_password_456', 'origin': 'http://127.0.0.1:8001', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 15:27:20 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 15:27:24 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 15:27:24 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 15:29:26 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 15:29:26 - Custom_headers: {}
+11-Mar 15:29:26 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'x-username': 'admin', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'x-user-hashed-password': 'hashed_password_456', 'origin': 'http://127.0.0.1:8001', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 15:29:26 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 15:29:26 - Custom_headers: {}
+11-Mar 15:29:26 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 15:29:27 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 15:29:27 - Custom_headers: {}
+11-Mar 15:29:27 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 15:29:31 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 15:29:31 - Custom_headers: {}
+11-Mar 15:29:31 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 15:29:31 - Custom_headers: {}
+11-Mar 16:26:08 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 16:26:08 - Custom_headers: {}
+11-Mar 16:26:08 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 16:26:08 - Custom_headers: {}
+11-Mar 16:26:08 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 400 Bad Request"
+11-Mar 16:26:08 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 16:26:08 - Custom_headers: {}
+11-Mar 16:26:08 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 16:26:08 - Custom_headers: {}
+11-Mar 16:26:08 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 400 Bad Request"
+11-Mar 16:26:09 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 16:26:09 - Custom_headers: {}
+11-Mar 16:26:09 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 16:26:09 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+11-Mar 16:26:09 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 16:26:09 - Custom_headers: {}
+11-Mar 16:26:09 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 16:26:09 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+11-Mar 16:26:10 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 16:26:10 - Custom_headers: {}
+11-Mar 16:26:10 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 16:26:10 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 403 Forbidden"
+11-Mar 16:26:17 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 16:26:17 - Custom_headers: {}
+11-Mar 16:26:17 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'accept': '*/*', 'access-control-request-method': 'GET', 'access-control-request-headers': 'x-user-hashed-password,x-username', 'origin': 'http://127.0.0.1:8001', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'sec-fetch-mode': 'cors', 'sec-fetch-site': 'cross-site', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 16:26:17 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 16:26:17 - Custom_headers: {}
+11-Mar 16:26:17 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 16:26:18 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 16:26:18 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 16:26:18 - Custom_headers: {}
+11-Mar 16:26:18 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'x-username': 'admin', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'x-user-hashed-password': 'hashed_password_456', 'origin': 'http://127.0.0.1:8001', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 16:26:18 - Custom_headers: {}
+11-Mar 16:26:18 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 16:29:25 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 16:29:25 - Custom_headers: {}
+11-Mar 16:29:25 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'x-username': 'admin', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'x-user-hashed-password': 'hashed_password_456', 'origin': 'http://127.0.0.1:8001', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 16:29:25 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 16:29:25 - Custom_headers: {}
+11-Mar 16:29:25 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 16:29:25 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 16:29:25 - Custom_headers: {}
+11-Mar 16:29:25 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 16:50:59 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 16:50:59 - Custom_headers: {}
+11-Mar 16:50:59 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 16:50:59 - Custom_headers: {}
+11-Mar 16:50:59 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 400 Bad Request"
+11-Mar 16:51:00 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 16:51:00 - Custom_headers: {}
+11-Mar 16:51:00 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 16:51:00 - Custom_headers: {}
+11-Mar 16:51:00 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 200 OK"
+11-Mar 16:51:00 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 16:51:00 - Custom_headers: {}
+11-Mar 16:51:00 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 16:51:00 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+11-Mar 16:51:00 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 16:51:00 - Custom_headers: {}
+11-Mar 16:51:00 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 16:51:00 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 200 OK"
+11-Mar 16:51:01 - HTTP Request: GET http://127.0.0.1:8001/docs#/default/signin_signin_post "HTTP/1.1 200 OK"
+11-Mar 16:51:01 - Custom_headers: {}
+11-Mar 16:51:01 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 16:51:01 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 403 Forbidden"
+11-Mar 16:57:31 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 16:57:32 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 16:57:33 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 16:57:33 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+11-Mar 16:57:33 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 16:57:33 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 200 OK"
+11-Mar 16:57:33 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 16:57:33 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 403 Forbidden"
+11-Mar 16:58:01 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'accept': '*/*', 'access-control-request-method': 'GET', 'access-control-request-headers': 'x-user-hashed-password,x-username', 'origin': 'http://127.0.0.1:8001', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'sec-fetch-mode': 'cors', 'sec-fetch-site': 'cross-site', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 16:58:01 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'x-username': 'admin', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'x-user-hashed-password': 'hashed_password_456', 'origin': 'http://127.0.0.1:8001', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 16:58:01 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 16:58:01 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 16:58:06 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 16:58:19 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'content-length': '0', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 17:00:45 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'x-username': 'admin', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'x-user-hashed-password': 'hashed_password_456', 'origin': 'http://127.0.0.1:8001', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 17:00:45 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 17:00:46 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 17:00:49 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'content-length': '0', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 17:02:13 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'x-username': 'admin', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'x-user-hashed-password': 'hashed_password_456', 'origin': 'http://127.0.0.1:8001', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 17:02:13 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 17:02:13 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 17:02:21 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'content-length': '0', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 17:02:33 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 17:15:50 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'accept': '*/*', 'access-control-request-method': 'GET', 'access-control-request-headers': 'x-user-hashed-password,x-username', 'origin': 'http://127.0.0.1:8001', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'sec-fetch-mode': 'cors', 'sec-fetch-site': 'cross-site', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 17:15:50 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'x-username': 'admin', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'x-user-hashed-password': 'hashed_password_456', 'origin': 'http://127.0.0.1:8001', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 17:15:50 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 17:15:50 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 17:15:55 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 17:16:42 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'x-username': 'admin', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'x-user-hashed-password': 'hashed_password_456', 'origin': 'http://127.0.0.1:8001', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 17:16:42 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 17:16:42 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 17:16:45 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 17:19:09 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'x-username': 'admin', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'x-user-hashed-password': 'hashed_password_456', 'origin': 'http://127.0.0.1:8001', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 17:19:09 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 17:19:09 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 17:19:14 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 17:20:27 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:20:27 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:20:27 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:20:28 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:20:28 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:21:01 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:21:01 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:21:02 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:21:02 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:21:02 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:24:21 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:24:21 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:24:22 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:24:22 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:24:22 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:24:35 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:24:35 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:24:36 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:27:21 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:27:21 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:27:22 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:27:22 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:27:22 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:27:39 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:27:40 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:27:40 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:27:41 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:27:41 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:28:06 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:28:07 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:28:07 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:28:07 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:28:08 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:28:45 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:28:45 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 400 Bad Request"
+11-Mar 17:28:45 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:28:45 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 200 OK"
+11-Mar 17:28:45 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:28:46 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:28:46 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:29:44 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:29:45 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:29:45 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:29:45 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+11-Mar 17:29:45 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:29:45 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 200 OK"
+11-Mar 17:29:45 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:29:45 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 403 Forbidden"
+11-Mar 17:29:58 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:29:58 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 400 Bad Request"
+11-Mar 17:29:58 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:29:58 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 200 OK"
+11-Mar 17:29:58 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:29:58 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+11-Mar 17:29:58 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:29:58 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 200 OK"
+11-Mar 17:29:58 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:29:58 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 403 Forbidden"
+11-Mar 17:31:30 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:31:30 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 400 Bad Request"
+11-Mar 17:31:30 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:31:30 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 200 OK"
+11-Mar 17:31:30 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:31:30 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+11-Mar 17:31:30 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:31:30 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 200 OK"
+11-Mar 17:31:30 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:31:30 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 403 Forbidden"
+11-Mar 17:31:44 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:31:44 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:31:44 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 200 OK"
+11-Mar 17:31:44 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:31:44 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+11-Mar 17:31:44 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:31:44 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 200 OK"
+11-Mar 17:31:44 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:31:44 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 403 Forbidden"
+11-Mar 17:35:45 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:35:45 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:35:45 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 400 Bad Request"
+11-Mar 17:35:45 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:35:45 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+11-Mar 17:35:45 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:35:45 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 200 OK"
+11-Mar 17:35:45 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:35:45 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 403 Forbidden"
+11-Mar 17:37:21 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:37:21 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:37:21 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 200 OK"
+11-Mar 17:37:21 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:37:21 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+11-Mar 17:37:21 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+11-Mar 17:37:21 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 200 OK"
+11-Mar 17:37:21 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+11-Mar 17:37:21 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 403 Forbidden"
+11-Mar 18:10:53 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'accept': '*/*', 'access-control-request-method': 'GET', 'access-control-request-headers': 'x-user-hashed-password,x-username', 'origin': 'http://127.0.0.1:8001', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'sec-fetch-mode': 'cors', 'sec-fetch-site': 'cross-site', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 18:10:53 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'x-username': 'admin', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'x-user-hashed-password': 'hashed_password_456', 'origin': 'http://127.0.0.1:8001', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 18:10:53 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 18:10:53 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 18:10:57 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 18:11:05 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'content-length': '0', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 18:11:28 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'x-username': 'admin', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'x-user-hashed-password': 'hashed_password_456', 'origin': 'http://127.0.0.1:8001', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 18:11:28 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 18:11:29 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+11-Mar 18:11:32 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'content-length': '0', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 11:21:36 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'accept': '*/*', 'access-control-request-method': 'GET', 'access-control-request-headers': 'x-user-hashed-password,x-username', 'origin': 'http://127.0.0.1:8001', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'sec-fetch-mode': 'cors', 'sec-fetch-site': 'cross-site', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 11:21:36 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'x-username': 'admin', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'x-user-hashed-password': 'hashed_password_456', 'origin': 'http://127.0.0.1:8001', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 11:21:36 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 11:21:36 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 11:23:28 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+12-Mar 11:23:29 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+12-Mar 11:23:29 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 200 OK"
+12-Mar 11:23:29 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+12-Mar 11:23:29 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+12-Mar 11:23:29 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+12-Mar 11:23:29 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 200 OK"
+12-Mar 11:23:29 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+12-Mar 11:23:29 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 403 Forbidden"
+12-Mar 12:32:22 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'accept': '*/*', 'access-control-request-method': 'GET', 'access-control-request-headers': 'x-user-hashed-password,x-username', 'origin': 'http://127.0.0.1:8001', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'sec-fetch-mode': 'cors', 'sec-fetch-site': 'cross-site', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 12:32:22 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'x-username': 'admin', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'x-user-hashed-password': 'hashed_password_456', 'origin': 'http://127.0.0.1:8001', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 12:32:23 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 12:32:23 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 12:32:49 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 12:33:13 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'content-length': '0', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 13:01:08 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'accept': '*/*', 'access-control-request-method': 'GET', 'access-control-request-headers': 'x-user-hashed-password,x-username', 'origin': 'http://127.0.0.1:8001', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'sec-fetch-mode': 'cors', 'sec-fetch-site': 'cross-site', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 13:01:08 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'x-username': 'admin', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'x-user-hashed-password': 'hashed_password_456', 'origin': 'http://127.0.0.1:8001', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 13:01:08 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 13:01:08 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 16:57:20 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'accept': '*/*', 'access-control-request-method': 'GET', 'access-control-request-headers': 'x-user-hashed-password,x-username', 'origin': 'http://127.0.0.1:8001', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'sec-fetch-mode': 'cors', 'sec-fetch-site': 'cross-site', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 16:57:21 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'x-username': 'admin', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'x-user-hashed-password': 'hashed_password_456', 'origin': 'http://127.0.0.1:8001', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 16:57:21 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 16:57:21 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 16:57:30 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 16:59:07 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+12-Mar 16:59:08 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+12-Mar 16:59:08 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 200 OK"
+12-Mar 16:59:08 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+12-Mar 16:59:08 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+12-Mar 16:59:08 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+12-Mar 16:59:08 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 200 OK"
+12-Mar 16:59:08 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+12-Mar 16:59:08 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 403 Forbidden"
+12-Mar 17:00:56 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+12-Mar 17:00:56 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 400 Bad Request"
+12-Mar 17:00:57 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+12-Mar 17:00:57 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 200 OK"
+12-Mar 17:00:57 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+12-Mar 17:00:57 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+12-Mar 17:00:57 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+12-Mar 17:00:57 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+12-Mar 17:00:57 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+12-Mar 17:00:57 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 403 Forbidden"
+12-Mar 17:01:27 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+12-Mar 17:01:27 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 400 Bad Request"
+12-Mar 17:01:27 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+12-Mar 17:01:27 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 400 Bad Request"
+12-Mar 17:01:28 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+12-Mar 17:01:28 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+12-Mar 17:01:28 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+12-Mar 17:01:28 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+12-Mar 17:01:28 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+12-Mar 17:01:28 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 403 Forbidden"
+12-Mar 17:01:42 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+12-Mar 17:01:42 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 400 Bad Request"
+12-Mar 17:01:42 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+12-Mar 17:01:42 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 200 OK"
+12-Mar 17:01:42 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+12-Mar 17:01:42 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+12-Mar 17:01:42 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+12-Mar 17:01:42 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+12-Mar 17:01:42 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+12-Mar 17:01:42 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 403 Forbidden"
+12-Mar 17:02:22 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+12-Mar 17:02:22 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 400 Bad Request"
+12-Mar 17:02:22 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+12-Mar 17:02:22 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 200 OK"
+12-Mar 17:02:22 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+12-Mar 17:02:22 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+12-Mar 17:02:22 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+12-Mar 17:02:22 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 200 OK"
+12-Mar 17:02:22 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+12-Mar 17:02:22 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 403 Forbidden"
+12-Mar 17:07:12 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'x-username': 'admin', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'x-user-hashed-password': 'hashed_password_456', 'origin': 'http://127.0.0.1:8001', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 17:07:12 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 17:07:13 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 17:30:25 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'accept': '*/*', 'access-control-request-method': 'GET', 'access-control-request-headers': 'x-user-hashed-password,x-username', 'origin': 'http://127.0.0.1:8001', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'sec-fetch-mode': 'cors', 'sec-fetch-site': 'cross-site', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 17:30:25 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'x-username': 'admin', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'x-user-hashed-password': 'hashed_password_456', 'origin': 'http://127.0.0.1:8001', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 17:30:25 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+12-Mar 17:30:25 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 14:54:35 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'accept': '*/*', 'access-control-request-method': 'GET', 'access-control-request-headers': 'x-user-hashed-password,x-username', 'origin': 'http://127.0.0.1:8001', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'sec-fetch-mode': 'cors', 'sec-fetch-site': 'cross-site', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 14:54:35 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 14:54:35 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 14:54:41 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 14:59:02 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'cache-control': 'max-age=0', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 14:59:02 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'no-cors', 'sec-fetch-dest': 'image', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 14:59:09 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'no-cors', 'sec-fetch-dest': 'image', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 14:59:11 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'cache-control': 'max-age=0', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 14:59:12 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'no-cors', 'sec-fetch-dest': 'image', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 14:59:19 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 14:59:19 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'no-cors', 'sec-fetch-dest': 'image', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 14:59:45 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'cache-control': 'max-age=0', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 14:59:45 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 14:59:50 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'content-length': '0', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 15:00:01 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 15:00:01 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 15:00:07 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 15:03:03 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 15:03:03 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 15:03:06 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 15:20:22 - HTTP Request: GET http://localhost:8000/delete_user "HTTP/1.1 500 Internal Server Error"
+17-Mar 15:20:23 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 15:20:23 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 15:20:27 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 15:24:19 - HTTP Request: GET http://localhost:8000/delete_user "HTTP/1.1 500 Internal Server Error"
+17-Mar 15:25:13 - Headers: {'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.28.1', 'x-username': 'admin', 'x-user-hashed-password': 'hashed_password_456'}
+--------------------------------
+17-Mar 15:25:13 - HTTP Request: GET http://localhost:8000/delete_user "HTTP/1.1 500 Internal Server Error"
+17-Mar 15:40:04 - Headers: {'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.28.1', 'x-username': 'admin', 'x-user-hashed-password': 'hashed_password_456'}
+--------------------------------
+17-Mar 15:40:04 - HTTP Request: GET http://localhost:8000/delete_user "HTTP/1.1 500 Internal Server Error"
+17-Mar 15:49:14 - Headers: {'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.28.1', 'x-username': 'admin', 'x-user-hashed-password': 'hashed_password_456'}
+--------------------------------
+17-Mar 15:49:14 - HTTP Request: GET http://localhost:8000/delete_user "HTTP/1.1 500 Internal Server Error"
+17-Mar 15:51:14 - Headers: {'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.28.1', 'x-username': 'admin', 'x-user-hashed-password': 'hashed_password_456'}
+--------------------------------
+17-Mar 15:51:14 - HTTP Request: GET http://localhost:8000/delete_user "HTTP/1.1 500 Internal Server Error"
+17-Mar 15:51:14 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 15:51:15 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'no-cors', 'sec-fetch-dest': 'image', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 15:51:34 - Headers: {'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.28.1', 'x-username': 'admin', 'x-user-hashed-password': 'hashed_password_456'}
+--------------------------------
+17-Mar 15:51:34 - HTTP Request: GET http://localhost:8000/delete_user "HTTP/1.1 500 Internal Server Error"
+17-Mar 15:51:35 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 15:51:35 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'no-cors', 'sec-fetch-dest': 'image', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 15:55:42 - Headers: {'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.28.1', 'x-username': 'admin', 'x-user-hashed-password': 'hashed_password_456'}
+--------------------------------
+17-Mar 15:55:42 - HTTP Request: GET http://localhost:8000/delete_user "HTTP/1.1 500 Internal Server Error"
+17-Mar 15:55:43 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 15:55:43 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'no-cors', 'sec-fetch-dest': 'image', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 15:56:12 - Headers: {'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.28.1', 'x-username': 'admin', 'x-user-hashed-password': 'hashed_password_456'}
+--------------------------------
+17-Mar 15:56:12 - HTTP Request: GET http://localhost:8000/delete_user "HTTP/1.1 405 Method Not Allowed"
+17-Mar 15:56:12 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 15:56:13 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 15:56:19 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 16:20:38 - Headers: {'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.28.1', 'x-username': 'admin', 'x-user-hashed-password': 'hashed_password_456'}
+--------------------------------
+17-Mar 16:20:38 - HTTP Request: GET http://localhost:8000/delete_user "HTTP/1.1 405 Method Not Allowed"
+17-Mar 16:20:39 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 16:20:39 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 16:21:13 - Headers: {'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.28.1', 'x-username': 'admin', 'x-user-hashed-password': 'hashed_password_456'}
+--------------------------------
+17-Mar 16:21:13 - HTTP Request: GET http://localhost:8000/delete_user "HTTP/1.1 405 Method Not Allowed"
+17-Mar 16:21:13 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 16:21:13 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 16:22:55 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 16:45:49 - Headers: {'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.28.1', 'x-username': 'admin', 'x-user-hashed-password': 'hashed_password_456'}
+--------------------------------
+17-Mar 16:45:49 - HTTP Request: GET http://localhost:8000/delete_user "HTTP/1.1 405 Method Not Allowed"
+17-Mar 16:45:49 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 16:45:50 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 16:46:29 - Headers: {'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.28.1', 'x-username': 'admin', 'x-user-hashed-password': 'hashed_password_456'}
+--------------------------------
+17-Mar 16:46:29 - HTTP Request: GET http://localhost:8000/docs#/default/delete_user_delete_user_delete "HTTP/1.1 200 OK"
+17-Mar 16:46:30 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 16:46:30 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 16:46:36 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 16:52:58 - Headers: {'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.28.1', 'x-username': 'admin', 'x-user-hashed-password': 'hashed_password_456'}
+--------------------------------
+17-Mar 16:52:58 - HTTP Request: GET http://localhost:8000/docs#/delete_user "HTTP/1.1 200 OK"
+17-Mar 16:52:59 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 16:52:59 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 18:31:43 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 18:31:48 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 18:31:53 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 18:40:17 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 18:40:18 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 18:40:19 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 18:42:47 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 18:42:47 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 18:42:48 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 19:20:36 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 19:20:36 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 19:20:37 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 19:23:53 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 19:23:54 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 19:23:54 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 19:43:35 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+17-Mar 20:27:07 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+17-Mar 20:27:08 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 20:27:08 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 400 Bad Request"
+17-Mar 20:27:08 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 20:27:08 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+17-Mar 20:27:08 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 20:27:08 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 200 OK"
+17-Mar 20:32:05 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+17-Mar 20:32:06 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 20:32:06 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 400 Bad Request"
+17-Mar 20:32:06 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 20:32:06 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+17-Mar 20:32:07 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 20:32:07 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 200 OK"
+17-Mar 20:34:23 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+17-Mar 20:34:24 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 20:34:24 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 400 Bad Request"
+17-Mar 20:34:24 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+17-Mar 20:34:24 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 20:34:24 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+17-Mar 20:34:24 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+17-Mar 20:34:25 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 20:34:25 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 403 Forbidden"
+17-Mar 20:41:16 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+17-Mar 20:41:16 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 20:41:16 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 400 Bad Request"
+17-Mar 20:41:16 - Incorrect password
+17-Mar 20:41:16 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 20:41:16 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+17-Mar 20:41:16 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+17-Mar 20:41:17 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 20:41:17 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 403 Forbidden"
+17-Mar 20:42:43 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+17-Mar 20:42:44 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 20:42:44 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 400 Bad Request"
+17-Mar 20:42:44 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+17-Mar 20:42:44 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 20:42:44 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+17-Mar 20:42:44 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+17-Mar 20:42:45 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 20:42:45 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 403 Forbidden"
+17-Mar 20:43:15 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+17-Mar 20:43:16 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 20:43:16 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 400 Bad Request"
+17-Mar 20:43:16 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+17-Mar 20:43:16 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 20:43:16 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+17-Mar 20:43:16 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+17-Mar 20:43:16 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 20:43:16 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 403 Forbidden"
+17-Mar 21:22:34 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+17-Mar 21:22:35 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 21:22:35 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 400 Bad Request"
+17-Mar 21:22:35 - Incorrect password
+17-Mar 21:22:35 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 21:22:35 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+17-Mar 21:22:35 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+17-Mar 21:22:35 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 21:22:35 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 403 Forbidden"
+17-Mar 21:42:13 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+17-Mar 21:42:21 - Headers: {'host': '127.0.0.1:8001', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 21:43:54 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+17-Mar 21:43:59 - Headers: {'host': '127.0.0.1:8001', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 21:44:14 - Headers: {'host': '127.0.0.1:8001', 'connection': 'keep-alive', 'content-length': '56', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'origin': 'http://127.0.0.1:8001', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 21:44:35 - Headers: {'host': '127.0.0.1:8001', 'connection': 'keep-alive', 'content-length': '56', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'origin': 'http://127.0.0.1:8001', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 21:44:48 - Headers: {'host': '127.0.0.1:8001', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 21:55:45 - Headers: {'host': '127.0.0.1:8001', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 21:55:52 - Headers: {'host': '127.0.0.1:8001', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 22:04:24 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+17-Mar 22:04:26 - Headers: {'host': '127.0.0.1:8001', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 22:05:37 - Headers: {'host': '127.0.0.1:8001', 'connection': 'keep-alive', 'content-length': '56', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'origin': 'http://127.0.0.1:8001', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 22:05:38 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 22:05:38 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 22:06:26 - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+17-Mar 22:07:07 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+17-Mar 22:07:08 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 22:07:08 - HTTP Request: GET http://testserver/get_users "HTTP/1.1 400 Bad Request"
+17-Mar 22:07:08 - Incorrect password
+17-Mar 22:07:08 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 22:07:08 - HTTP Request: POST http://testserver/add_new_user "HTTP/1.1 403 Forbidden"
+17-Mar 22:07:08 - Headers: {'host': 'testserver', 'content-length': '0', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'True', 'x-username': 'testuser', 'x-user-hashed-password': 'password'}
+--------------------------------
+17-Mar 22:07:08 - Headers: {'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient', 'x-allow-edit': 'False'}
+--------------------------------
+17-Mar 22:07:08 - HTTP Request: DELETE http://testserver/delete_user "HTTP/1.1 403 Forbidden"
+18-Mar 17:23:41 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+18-Mar 17:23:46 - Headers: {'host': '127.0.0.1:8001', 'connection': 'keep-alive', 'cache-control': 'max-age=0', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+18-Mar 17:23:46 - Headers: {'host': '127.0.0.1:8001', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+18-Mar 17:24:58 - Headers: {'host': '127.0.0.1:8001', 'connection': 'keep-alive', 'cache-control': 'max-age=0', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+18-Mar 17:24:59 - Headers: {'host': '127.0.0.1:8001', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8001/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+18-Mar 18:10:31 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+18-Mar 18:10:56 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+18-Mar 18:10:58 - Headers: {'host': '127.0.0.1:8001', 'connection': 'keep-alive', 'cache-control': 'max-age=0', 'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+--------------------------------
+18-Mar 18:12:14 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+18-Mar 18:12:32 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+18-Mar 18:13:20 - User not found
+18-Mar 18:25:29 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+18-Mar 18:26:44 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+18-Mar 18:27:45 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+18-Mar 18:32:28 - Incorrect password
+18-Mar 18:55:01 - Incorrect password
+18-Mar 18:55:41 - Incorrect password
+18-Mar 19:00:49 - Incorrect password
+18-Mar 19:06:02 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+18-Mar 19:08:02 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+18-Mar 19:13:08 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+18-Mar 19:23:32 - Incorrect password
+18-Mar 19:28:25 - Incorrect password
+19-Mar 18:39:26 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+26-Mar 16:53:36 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+27-Mar 18:23:39 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+27-Mar 18:23:44 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+27-Mar 18:23:50 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+29-Mar 14:17:11 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+29-Mar 14:57:50 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+29-Mar 15:01:24 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+29-Mar 15:02:30 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+29-Mar 15:22:24 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+29-Mar 16:43:50 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+29-Mar 16:44:19 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+29-Mar 16:47:26 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+29-Mar 16:54:28 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+31-Mar 17:08:52 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+31-Mar 17:09:12 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+31-Mar 17:11:17 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+31-Mar 17:14:01 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+31-Mar 17:27:31 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+31-Mar 17:33:43 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+31-Mar 17:36:43 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+31-Mar 17:38:35 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+31-Mar 17:39:29 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+31-Mar 17:44:46 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+31-Mar 17:46:51 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+31-Mar 17:56:23 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+31-Mar 17:59:25 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+31-Mar 18:05:19 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+31-Mar 18:29:52 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+02-Apr 11:23:18 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+02-Apr 11:23:21 - Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<main() done, defined at d:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\main.py:55> exception=SystemExit(1)>
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\uvicorn\server.py", line 163, in startup
+    server = await loop.create_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ДНС\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1571, in create_server
+    raise OSError(err.errno, msg) from None
+OSError: [Errno 10048] error while attempting to bind on address ('127.0.0.1', 8001): [winerror 10048] обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\main.py", line 65, in <module>
+    asyncio.run(main())
+  File "C:\Users\ДНС\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 193, in run
+    with Runner(debug=debug, loop_factory=loop_factory) as runner:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ДНС\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 62, in __exit__
+    self.close()
+  File "C:\Users\ДНС\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 70, in close
+    _cancel_all_tasks(loop)
+  File "C:\Users\ДНС\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 205, in _cancel_all_tasks
+    loop.run_until_complete(tasks.gather(*to_cancel, return_exceptions=True))
+  File "C:\Users\ДНС\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Users\ДНС\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\ДНС\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Users\ДНС\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1986, in _run_once
+    handle._run()
+  File "C:\Users\ДНС\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "d:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\main.py", line 56, in main
+    await asyncio.gather(
+  File "C:\Users\ДНС\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\ДНС\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ДНС\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Users\ДНС\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\ДНС\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Users\ДНС\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1986, in _run_once
+    handle._run()
+  File "C:\Users\ДНС\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "d:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\main.py", line 53, in run_server
+    await server.serve()
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\uvicorn\server.py", line 70, in serve
+    await self._serve(sockets)
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\uvicorn\server.py", line 85, in _serve
+    await self.startup(sockets=sockets)
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\uvicorn\server.py", line 173, in startup
+    sys.exit(1)
+SystemExit: 1
+02-Apr 11:23:58 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+02-Apr 13:26:39 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+02-Apr 13:35:37 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+02-Apr 14:20:58 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+02-Apr 14:26:41 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+02-Apr 16:38:05 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+08-Apr 21:39:50 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+08-Apr 21:41:01 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+08-Apr 21:42:54 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+08-Apr 21:48:44 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+08-Apr 21:50:14 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+08-Apr 21:51:50 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+08-Apr 21:53:27 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+08-Apr 21:55:10 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+08-Apr 21:55:45 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+08-Apr 21:58:25 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+08-Apr 22:03:04 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+08-Apr 22:03:47 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+08-Apr 22:04:31 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+08-Apr 22:05:14 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+09-Apr 12:44:20 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+09-Apr 12:58:52 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+20-Apr 20:18:54 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+20-Apr 20:20:20 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+20-Apr 20:20:48 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+20-Apr 20:21:40 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+20-Apr 20:32:03 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+20-Apr 20:39:11 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+20-Apr 20:46:39 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+20-Apr 21:16:52 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+20-Apr 21:35:56 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+22-Apr 17:46:52 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+22-Apr 17:54:19 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\вуз\3 курс 6 сем\Практика ГосНИИАС\auth_FastAPI\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
